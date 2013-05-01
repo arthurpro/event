@@ -1,0 +1,10 @@
+<phpunit bootstrap="./vendor/autoload.php" colors="true">
+    <testsuites>
+
+        <!-- Unit test suite -->
+        <testsuite name="unit">
+            <directory suffix="Test.php">./test</directory>
+        </testsuite>
+
+    </testsuites>
+</phpunit>
