@@ -10,7 +10,7 @@ way you prefer, but we recommend [Composer][composer].
 ```json
 {
     "require": {
-        "graze/event": "~0.1.1"
+        "graze/event": "~0.1.2"
     }
 }
 ```
