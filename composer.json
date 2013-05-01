@@ -1,7 +1,7 @@
 {
     "name": "graze/event",
-    "description": "Simple event pub/sub",
-    "keywords": ["event", "pub", "pub/sub", "sub", "subscriber"],
+    "description": "Simple event pub sub",
+    "keywords": ["event", "pub", "sub", "subscriber"],
 
     "version": "0.1.1",
 
