@@ -3,7 +3,7 @@
     "description": "Simple event pub/sub",
     "keywords": ["event", "pub", "pub/sub", "sub", "subscriber"],
 
-    "version": "0.1.0",
+    "version": "0.1.1",
 
     "license": "MIT",
     "type": "library",
