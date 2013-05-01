@@ -1,5 +1,5 @@
 {
-    "name": "Graze Event",
+    "name": "graze/event",
     "description": "Simple event pub/sub",
     "keywords": ["event", "pub", "pub/sub", "sub", "subscriber"],
 
