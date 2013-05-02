@@ -1,7 +1,8 @@
 {
     "name": "graze/event",
-    "description": "Simple event pub sub",
-    "keywords": ["event", "pub", "sub", "subscriber"],
+    "description": "Simple event pub-sub",
+    "keywords": ["dispatcher", "event", "pub", "sub", "subscriber"],
+    "homepage": "https://github.com/graze/event",
 
     "version": "0.1.2",
 
@@ -10,7 +11,7 @@
 
     "authors": [
         {
-            "name": "andrew Lawson",
+            "name": "Andrew Lawson",
             "email": "andrew.lawson@graze.com",
             "homepage": "http://graze.com",
             "role": "Developer"
@@ -24,11 +25,11 @@
     },
 
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.2"
     },
 
     "require-dev": {
-        "mockery/mockery": "~0.7.0",
+        "mockery/mockery": "~0.8.0",
         "phpunit/phpunit": "~3.7.0"
     }
 }

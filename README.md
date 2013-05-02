@@ -6,7 +6,7 @@
 
 
 Event is a simple event pub/sub library for PHP. It can be installed in whichever
-way you prefer, but we recommend [Composer][composer].
+way you prefer, but we recommend [Composer][packagist].
 ```json
 {
     "require": {
@@ -115,5 +115,5 @@ You can find a copy of this license at http://www.opensource.org/licenses/mit
 <!-- Links -->
 [travis]: https://travis-ci.org/graze/event
 [travis-master]: https://travis-ci.org/graze/event.png?branch=master
-[composer]: http://getcomposer.org
+[packagist]: https://packagist.org/packages/graze/event
 [vagrant]: http://vagrantup.com
