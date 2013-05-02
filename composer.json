@@ -4,7 +4,7 @@
     "keywords": ["dispatcher", "event", "pub", "sub", "subscriber"],
     "homepage": "https://github.com/graze/event",
 
-    "version": "0.1.2",
+    "version": "0.1.3",
 
     "license": "MIT",
     "type": "library",
