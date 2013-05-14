@@ -35,7 +35,7 @@ Vagrant.configure('2') do |config|
 
   # Setup
   def provision_php(config)
-    config.vm.provision :shell, :inline => 'apt-get install -q -y php5-cli'
+    config.vm.provision :shell, :inline => 'apt-get install -q -y php5-cli php5-xdebug'
     config.vm.provision :shell, :inline => 'curl -s https://getcomposer.org/installer | php'
     config.vm.provision :shell, :inline => 'mv ./composer.phar /usr/local/bin/composer'
   end
