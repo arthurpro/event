@@ -1,7 +1,7 @@
 # Graze\Event #
 
 
-**Version:** *0.1.3*<br/>
+**Version:** *0.1.4*<br/>
 **Master build:** [![Master branch build status][travis-master]][travis]
 
 
@@ -10,7 +10,7 @@ way you prefer, but we recommend [Composer][packagist].
 ```json
 {
     "require": {
-        "graze/event": "~0.1.3"
+        "graze/event": "~0.1.4"
     }
 }
 ```
