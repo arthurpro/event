@@ -64,9 +64,9 @@ class FooSubscriber implements Graze\Event\EventSubscriberInterface
         $self = $this;
 
         return array(
-            'event.foo' => function() use($self) {
-                if (0 < func_num_args()) {
-                    $self->onFoo(func_get_args());
+            'event.foo' => function($who = null) use ($self) {
+                if ($who) {
+                    $self->onFoo($who);
                 }
             }
         );
